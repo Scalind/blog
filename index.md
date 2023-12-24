@@ -4,22 +4,19 @@ layout: home
 
 hero:
   name: "Scalind Docs"
-  text: "Guides & info"
-  tagline: My great project tagline
+  text: "How to deploy rollups and app chains in seconds"
+  tagline: Docs & tutorials
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Documentation
+      link: /overview
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Deploy in seconds
+    details: Launch on top of any L1
+  - title: Add dApps
+    details: Choose from a marketplace of available services, deploy and reskin as needed
+  - title: Avoid vendor locks
+    details: There is an option to host the rollup entirely yourself
 ---
 

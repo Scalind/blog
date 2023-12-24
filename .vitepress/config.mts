@@ -2,6 +2,20 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-RFQYG2SH52' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'TAG_ID');`
+    ]
+  ],
   title: "Scalind Docs",
   description: "Guides & info",
   themeConfig: {
@@ -13,9 +27,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Documentation',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Overview', link: '/overview' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
