@@ -22,7 +22,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -30,7 +29,8 @@ export default defineConfig({
         text: 'Documentation',
         items: [
           { text: 'Overview', link: '/overview' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Rollup as a Service', link: '/RaaS' },
+          { text: 'dApp Store', link: '/dAppStore' }
         ]
       }
     ],

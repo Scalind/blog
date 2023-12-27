@@ -1,85 +1,13 @@
-# Markdown Extension Examples
+# Vision
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+Scalind is a blockchain infrastructure company, we aim to provide clients with both ways to create new and cheaper chains, as well as access to RPC infrastructure to communicate with existing chains
 
-## Syntax Highlighting
+What we do:
 
-VitePress provides Syntax Highlighting powered by [Shikiji](https://github.com/antfu/shikiji), with additional features like line-highlighting:
+## [Rollup as a service](/RaaS)
 
-**Input**
+Launch a custom L2 blockchain on top of an L1 of your choice. Assisted chain setup can be done within one day, and total time to market is around 2 weeks to get the chain on the public registries etc.
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+## [dApp Store](/dAppStore)
 
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+Populate any chain (including the ones not managed by Scalind) with the base applications you might need, from multi-signature wallets to exchanges and more
